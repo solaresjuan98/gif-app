@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test on <AddCategory /> component should to show correctly 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <p />
+    <input
+      className="form-control"
+      id="inputDefault"
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+  </form>
+</Fragment>
+`;

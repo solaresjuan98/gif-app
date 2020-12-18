@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on <GifGrid /> should to show component correctly 1`] = `
+<Fragment>
+  <h3>
+    Nintendo
+  </h3>
+  <p
+    className="animate__animated animate__flash "
+  >
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`tests on <GifGrid /> should to show items when images are charged useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+    Nintendo
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Random thing"
+      url="https://localhost/anything/a.jpg"
+    />
+  </div>
+</Fragment>
+`;
